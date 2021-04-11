@@ -1,0 +1,53 @@
+.zero {
+    height: 1235px;
+    width: 370px;
+}
+
+.first {
+    height: 335px;
+    width: 280px;
+    background: white;
+    border: 1px solid white;
+    margin: 45px 45px 70px;
+}
+
+.second {
+    width: 280px;
+    height: 65px;
+    background-color: rgb(13, 207, 255);
+    border: 1px solid rgb(13, 207, 255);
+}
+
+.third {
+    margin: 11px 12px 94px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+.forth {
+    height: 160px;
+    width: 196px;
+    margin: 33px 42px 13px;
+}
+
+.fifth {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.sixth {
+    margin: 0 8px 96px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
+
+.seventh {
+    margin: 0 45px 70px;
+}
+
+.eighth {
+    margin: 0 45px 45px;
+}
