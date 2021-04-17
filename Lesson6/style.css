@@ -1,0 +1,55 @@
+.header {
+    background-color:rgb(241, 138, 138);
+    width: 100%;
+    height:50px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+.header__text {
+    padding: 15px;
+}
+.header__text-filler {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
+.footer {
+    background-color:rgb(241, 138, 138);  
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer__buttons-left {
+    padding: 0;
+   background: #FAAB1B;
+   border-width: 0;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.firstname{
+    margin: 0px; 
+}
+.form-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.required::after{
+    content: '*';
+    color: red;
+}
+.lastname {
+
+}
+.website{
+    border:1px white;
+    width: 50px;
+}
