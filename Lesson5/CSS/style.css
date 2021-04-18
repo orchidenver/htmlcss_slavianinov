@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    max-width: 1600px;
+    margin:auto;  
+}
+.header__inner {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1B0A42;
+    font-size: 16px;
+}
+.header__logo-link {
+    margin-right: 100px;
+    margin-top: 37px;
+}
+.header__menu {
+    display: flex;
+    margin-right: 750px;
+    margin-top: 48px;
+}
+.header__menu-item {
+    margin-right: 40px;
+    transition: all .3s;
+}
+.header__menu-item:hover {
+    color: #4d069e;
+}
+.header__menu-item:last-child{
+    margin-right: 0;
+}
+.header__signin {
+    margin-right: 40px;
+    margin-top: 48px;
+    transition: all .3s;
+}
+.header__signin:hover {
+    color: #4d069e;
+}
+.header__signup {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    line-height: 24px;
+    cursor: pointer;
+    width: 120px;
+    height: 60px;
+    background: #FC569A;
+    border-radius: 6px;
+    margin-top: 30px;
+    border: 0;
+    transition: all .3s;
+}
+.header__signup:hover{
+    background: #ff1577;
+}
+.frame {
+    max-width: 1600px;
+    margin:auto;
+}
+.frame__inner {
+    display: flex;
+    flex-direction: row;
+}
+.frame__inner-content {
+    display: flex;
+    flex-direction: column;
+}
+.frame__title {
+    margin: 208px 64px 18px 200px;
+    width: 500px;
+    font-family: Ramaraja;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+.frame__text {
+    margin: 0 0 53px 200px;
+    width: 580px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+.frame__learn {
+    margin: 0 407px 0 200px;
+    width: 152px;
+    height: 65px;
+    background: #FC569A;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: 0;
+    transition: all .3s;
+    cursor: pointer;
+}
+.frame__learn:hover{
+    background: #ff1577;
+}
+.frame__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 130px 45px 94px 0;
+}
