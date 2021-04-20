@@ -23,81 +23,83 @@
         </div>
     </header>
     <main>
-        <form class="form">
-            <div class="firstname">
-                <span class="form-text required">First name:</span>
-                <input type="text" size="30">
+        <form class="columns">
+            <div class="column__left">
+                <div class="field">
+                    <span class="form-text required">First name:</span>
+                    <input type="text">
+                </div>
+                <div class="field">
+                    <span class="form-text required">Last name:</span>
+                    <input type="text">
+                </div>
+                <div class="field">
+                    <span class="form-text">Address:</span>
+                    <textarea rows="10" cols="30" name="text">Please enter your address</textarea>
+                </div>
+                <div class="field">
+                    <span class="form-text">City:</span>
+                    <input type="text">
+                </div>
+                <div class="field">
+                    <span class="form-text">State:</span>
+                    <select name="select">
+                        <option value="kyiv">Kyiv</option>
+                        <option value="lviv">Lviv</option>
+                        <option value="kharkiv">Kharkiv</option>
+                        <option value="odesa">Odesa</option>
+                        <option value="none">Not selected</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <span class="form-text">Zip:</span>
+                    <input type="text">
+                </div>
+                <div class="field">
+                    <span class="form-text">Home phone:</span>
+                    <input type="text">
+                </div>
+                <div class="field">
+                    <span class="form-text required">Work phone:</span>
+                    <input type="text">
+                </div>
+                <div class="field">
+                    <span class="form-text">Fax number:</span>
+                    <input type="text">
+                </div>
+                <div class="field">
+                    <p class="form-text">Website</p>
+                    <p class="form-text">URL:
+                        <input type="text">
+                    </p>
+                    <p class="form-text">Link name:<br>
+                        <input type="text">
+                    </p>
+                </div>
+                <div class="field">
+                    <span class="form-text required">Email address:</span>
+                    <input type="text">
+                </div>
             </div>
-            <div class="lastname">
-                <span class="form-text required">Last name:</span>
-                <input type="text" size="30">
-            </div>
-            <div class="address">
-                <span class="form-text">Address:</span>
-                <textarea rows="10" cols="30" name="text">Please enter your address</textarea>
-            </div>
-            <div class="city">
-                <span class="form-text">City:</span>
-                <input type="text" size="30">
-            </div>
-            <div class="state">
-                <span class="form-text">State:</span>
-                <select name="select">
-                    <option value="kyiv">Kyiv</option>
-                    <option value="lviv">Lviv</option>
-                    <option value="kharkiv">Kharkiv</option>
-                    <option value="odesa">Odesa</option>
-                    <option value="none">Not selected</option>
-                </select>
-            </div>
-            <div class="zip">
-                <span class="form-text">Zip:</span>
-                <input type="text" size="30">
-            </div>
-            <div class="homephone">
-                <span class="form-text">Home phone:</span>
-                <input type="text" size="30">
-            </div>
-            <div class="workphone">
-                <span class="form-text required">Work phone:</span>
-                <input type="text" size="30">
-            </div>
-            <div class="fax">
-                <span class="form-text">Fax number:</span>
-                <input type="text" size="30">
-            </div>
-            <div class="website">
-                <span class="form-text">Website</span>
-                <span class="form-text">URL:</span>
-                <input type="text" size="30"><br>
-                <span class="form-text">Link name:</span>
-                <input type="text" size="30">
-            </div>
-            <div class="email">
-                <span class="form-text required">Email address:</span>
-                <input type="text" size="30">
-            </div>
-            <div class="time">
-                <span class="form-text">When is the best time to cintact you?</span>
-                <span class="form-text">Morning</span>
-                <input type="radio" name="daytime" value="morning">
-                <span class="form-text">Afternoon</span>
-                <input type="radio" name="daytime" value="afternoon">
-                <span class="form-text">Evening</span>
-                <input type="radio" name="daytime" value="evening">
-            </div>
-            <div class="way">
-                <span class="form-text">What is the best way to contact you?</span>
-                <span class="form-text">Phone</span>
-                <input type="radio" name="way" value="phone">
-                <span class="form-text">Email</span>
-                <input type="radio" name="way" value="email">
-                <span class="form-text">Fax</span>
-                <input type="radio" name="daytime" value="fax">
-            </div>
-            <div class="massage">
-                <span class="form-text">Massage:</span>
-                <textarea rows="10" cols="30" name="text">Please type your massage</textarea>
+            <div class="column__right">
+                <div class="field">
+                    <p class="form-text">When is the best time to contact you?
+                        <br><input type="radio" name="daytime" value="morning">Morning
+                        <br><input type="radio" name="daytime" value="afternoon">Afternoon
+                        <br><input type="radio" name="daytime" value="evening">Evening
+                    </p>
+                </div>
+                <div class="field">
+                    <p class="form-text">What is the best way to contact you?
+                        <br><input type="radio" name="way" value="phone">Phone
+                        <br><input type="radio" name="way" value="email">Email
+                        <br><input type="radio" name="way" value="fax">Fax
+                    </p>
+                </div>
+                <div class="field">
+                    <span class="form-text">Massage:</span>
+                    <textarea rows="10" cols="30" name="text">Please type your massage</textarea>
+                </div>
             </div>
         </form>
     </main>
